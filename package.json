@@ -10,8 +10,5 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": "",
-  "dependencies": {
-    "echo-commander": "^1.0.2"
-  }
+  "description": ""
 }

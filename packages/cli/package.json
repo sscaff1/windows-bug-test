@@ -1,0 +1,24 @@
+{
+  "name": "@test/cli",
+  "version": "1.0.2",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "postbuild": "echo \"#!/usr/bin/env node\n$(cat dist/cli.js)\" > dist/cli.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "echo-commander": "./dist/cli.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "commander": "^12.1.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.12.12",
+    "typescript": "^5.4.5"
+  }
+}

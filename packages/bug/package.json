@@ -11,6 +11,6 @@
   "license": "ISC",
   "description": "",
   "dependencies": {
-    "echo-commander": "^1.0.1"
+    "@test/cli": "*"
   }
 }
