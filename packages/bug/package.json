@@ -4,7 +4,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "echo-commander -i foo -o bar"
+    "start": "echo-commander -i src/themes/ashTheme.ts -o stories/Themable/theme.json"
   },
   "keywords": [],
   "author": "",
