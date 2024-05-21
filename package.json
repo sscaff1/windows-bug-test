@@ -1,16 +1,14 @@
 {
-  "name": "windows-bug-test",
+  "name": "windows-bug",
   "version": "1.0.0",
-  "main": "index.js",
+  "workspaces": [
+    "packages/*"
+  ],
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "echo-commander -i foo -o bar"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": "",
-  "dependencies": {
-    "echo-commander": "^1.0.1"
-  }
+  "description": ""
 }
