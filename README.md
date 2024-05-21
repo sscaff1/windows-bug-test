@@ -20,3 +20,5 @@ On windows, you should notice that nothing is passed to the cli so the output is
 ```js
 {}
 ```
+
+Note that if you `npx echo-commander -i foo -o bar` then you get the correct output regardless of operating system.
